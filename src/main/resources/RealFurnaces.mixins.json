@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "azokh99.realfurnaces.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "FlintAndSteelItemMixin",
+    "world.ChunkMixin",
+    "world.WorldMixin",
+    "world.WorldChunkMixin",
+    "world.ServerWorldMixin",
+    "world.ChunkSerializerMixin",
+    "world.ProtoChunkMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

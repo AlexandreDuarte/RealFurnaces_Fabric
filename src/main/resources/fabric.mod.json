@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "real_furnaces",
+  "version": "${version}",
+  "name": "RealFurnaces",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/RealFurnaces/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "client": [
+      "azokh99.realfurnaces.client.RealFurnacesClient"
+    ],
+    "main": [
+      "azokh99.realfurnaces.RealFurnaces"
+    ]
+  },
+  "mixins": [
+    "RealFurnaces.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
